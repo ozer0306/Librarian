@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="1dp"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    
+
+
+    //ID to login
+    <TextView
+        android:layout_width ="wrap_content"
+        android:text="ID"
+        android:layout_height="wrap_content"/>
+
+    //Name
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUserId" />
+
+    <TextView
+        android:layout_width ="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    //SurName
+    <TextView
+        android:layout_width ="wrap_content"
+        android:text="SurName"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etUserSurname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    //E-Mail
+    <TextView
+        android:layout_width ="wrap_content"
+        android:text="E-mail"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etUserMail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    //Password
+    <TextView
+        android:layout_width ="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    //Password
+    <TextView
+        android:layout_width ="wrap_content"
+        android:text="Password Again"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etPassword2"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/bConfirm"
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
